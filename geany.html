@@ -3,79 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Geany with Monte-Cristo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" hrelf="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
-    <style>
-        body{
-            background-color: #373A4B;
-        }
-        h1 {
-            font-family: 'Zilla Slab', serif;
-            color: #00B3F5;
-            font-size: 60px;
-            text-align: center;
-            font-weight: 900;
-        }
-        .preview {
-            width: 820px;
-            height: 550px;
-            display: block;
-            margin: 0px auto 0px;
-        }
-        h3 {
-            color: #00DDFF;
-            font-size: 40px;
-            text-align: left;
-            margin: 40px 0px auto 100px;
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
-
-        h4{
-            color: #fafafa;
-            font-size: 20px;
-            text-align: left;
-            margin: 40px 0px auto 100px;
-            font-weight: 300;
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
-        
-        .download , .how-to {
-            color: #fafafa;
-            font-size: 20px;
-            text-align: left;
-            margin: 40px 0px auto 100px;
-            font-weight: 200;
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
-
-        .geany-links {
-            color: #9B27FF;
-            text-decoration: none;
-        }
-
-        .os {
-            color: #fafafa;
-            font-size: 20px;
-            text-align: left;
-            margin: 40px 0px auto 100px;
-            font-weight: 400;
-            font-family: 'IBM Plex Sans', sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="/styles/geany-style.css" >
+    <link  rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" hrelf="https://fonts.gstatic.com" crossorigin >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" >
+    <link rel="stylesheeth" ref="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap">
 </head>
     <h1>Geany</h1>
     <img src="images/geany1.png" alt= "notepad-theme-preview" class="preview">
     <h3>Download</h3>
     <p class="download"><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Johndoe0153/monte-cristo-theme/tree/master/themes/geany" class="geany-links">Click here</a> to download .zip file and unzip them</p>
     <h3>Activating Theme</h3>
-    <h4 class="os">On Unix-like operating systems:</h4><br>
+    <div class="os">On Unix-like operating systems:</div>
     <ol class="how-to">
             <li>Copy the Monte-Cristo.conf into ~/.config/geany/colorschemes/. Create it if the directory doesn't exist.</li>
             <li>Choose the theme on Geany by going to the <strong>view</strong>  menu and selecting <strong>Change Color Scheme...</strong></li>
     </ol>
-    <h4 class="os">On Windows</h4>
+    <div class="os">On Windows:</div>
         <ol class="how-to">
             <li>Copy the Monte-Cristo.conf into C:\Users\YourUserName\AppData\Roaming\geany\colorschemes. Create it if the directory doesn't exist.</li>
             <li>Choose the theme on Geany by going to the <strong>view</strong>  menu and selecting <strong>Change Color Scheme...</strong></li>

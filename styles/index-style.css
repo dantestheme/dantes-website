@@ -6,6 +6,26 @@ body {
     background-color: #1c1d26;
 }
 
+.fixed-topbar{
+    background-color: #1c1d26;
+    overflow: hidden;
+    display: block;
+    text-align: left;
+    }
+
+.monte-cristo, .about{
+    color: #fafafa;
+    text-decoration: none;
+    margin: 0px 0px 0px 40px;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+.about:hover{
+    color: #00DDFF;
+    text-decoration: underline;
+}
+
 .ahead  {
     background-color: #373A4B;  
     }
@@ -46,11 +66,16 @@ body {
     font-weight: 600;
 }
 
-/* designate index color */
+/* designate index */
 
-.firefox {
-    color: #FFBD41;
+.notepad-plus-plus {
+    color: #FF4396;
     text-decoration: none;
+}
+
+.notepad-plus-plus:hover {
+    color:#FF4396;
+    text-decoration: underline;
 }
 
 .windows-terminal {
@@ -58,9 +83,19 @@ body {
     text-decoration: none;
 }
 
-.notepad-plus-plus {
-    color: #FF4396;
+.windows-terminal:hover{
+    color: #30F1A0;
+    text-decoration: underline;
+}
+
+.firefox {
+    color: #FFBD41;
     text-decoration: none;
+}
+
+.firefox:hover {
+    text-decoration: underline;
+    color:  #FFBD41;
 }
 
 .geany{
@@ -68,7 +103,12 @@ body {
     text-decoration: none;
 }
 
-.coming-soon {
+.geany:hover{
+    color: #42D3F2;
+    text-decoration: underline;
+}
+
+.coming-soon{
     color: #fafafa;
     text-align: center;
     margin: 80px auto 0px;
@@ -83,4 +123,9 @@ body {
 .github-links {
     color: #00B3F5;
     text-decoration: none;
+}
+
+.github-links:hover{
+    color: #00B3F5;
+    text-decoration: underline;
 }
