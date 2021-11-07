@@ -3,31 +3,39 @@ html {
 }
 
 body {
-    background-color: #1c1d26;
+    background-color: #121212;
 }
 
-.fixed-topbar{
-    background-color: #1c1d26;
-    overflow: hidden;
-    display: block;
-    text-align: left;
-    }
-
-.monte-cristo, .about{
+.github-links {
     color: #fafafa;
     text-decoration: none;
-    margin: 0px 0px 0px 40px;
-    font-size: 20px;
+    margin: 0 80px 0 0 ;
+    font-size: 30px;
+    font-weight: 600;
     text-align: center;
 }
- 
-.about:hover{
+
+.about-links{
+    color: #fafafa;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.github-links:hover{
+    color: #00B3F5;
+    text-decoration: underline;
+}
+
+.about-links:hover{
     color: #00DDFF;
     text-decoration: underline;
 }
 
-.ahead  {
-    background-color: #373A4B;  
+.header  {
+    background-color: #1C1D26;  
     }
 
 .logo {
@@ -59,7 +67,7 @@ body {
 
 .index {
     text-align: center ;
-    background-color: #1c1d26;
+    background-color: #121212;
     color: #fafafa;
     margin: auto;
     font-size: 40px;
@@ -118,14 +126,4 @@ body {
     color: #fafafa;
     text-align: center;
     margin: 70px auto 0px;
-}
-
-.github-links {
-    color: #00B3F5;
-    text-decoration: none;
-}
-
-.github-links:hover{
-    color: #00B3F5;
-    text-decoration: underline;
 }
