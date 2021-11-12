@@ -9,7 +9,7 @@ h1 {
     font-weight: 900;
 }
 .preview{
-    width: 700px;
+    width: 900px;
     height: 800px;
     display: block;
     margin: 0px auto 0px;
@@ -21,7 +21,7 @@ h3 {
     margin: 40px 0px auto 100px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-.download , .how-to {
+.activate, .how-to {
     color: #fafafa;
     font-size: 20px;
     text-align: left;
@@ -31,14 +31,4 @@ h3 {
 
 strong{
     color: #30F1A0;
-}
-
-.notepad-plus-plus-links {
-    color: #FFF94B;
-    text-decoration: none;
-}
-
-.notepad-plus-plus-links:hover {
-    color: #FFF94B;
-    text-decoration:underline ;
 }

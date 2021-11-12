@@ -76,6 +76,16 @@ body {
 
 /* designate index */
 
+.vscode {
+    color: #42D3F2;
+    text-decoration: none;
+}
+
+.vscode:hover {
+    color: #42D3F2;
+    text-decoration: underline;
+}
+
 .notepad-plus-plus {
     color: #FF4396;
     text-decoration: none;
