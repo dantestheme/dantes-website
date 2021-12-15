@@ -3,26 +3,25 @@ body{
 }
 h1 {
     font-family: 'Zilla Slab', serif;
-    color: #00d2ff;
+    color: #00B3F5;
     font-size: 60px;
     text-align: center;
     font-weight: 900;
 }
-.preview {
-    width: 1200px;
-    height: 700px;
+.preview{
+    width: 800px;
+    height: 800px;
     display: block;
     margin: 0px auto 0px;
 }
 h3 {
-    color: #00d2ff;
+    color: #00DDFF;
     font-size: 40px;
     text-align: left;
     margin: 40px 0px auto 100px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-
-p{
+.download, .how-to {
     color: #fafafa;
     font-size: 20px;
     text-align: left;
@@ -30,12 +29,16 @@ p{
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.firefox-links {
+strong{
+    color: #14eb96;
+}
+
+.gedit-links {
     color: #f5f500;
     text-decoration: none;
 }
 
-.firefox-links:hover{
+.gedit-links:hover {
     color: #f5f500;
-    text-decoration: underline;
+    text-decoration:underline;
 }

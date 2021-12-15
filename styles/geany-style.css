@@ -1,5 +1,5 @@
 body{
-    background-color: #373A4B;
+    background-color: #1d2128;
 }
 h1 {
     font-family: 'Zilla Slab', serif;
@@ -40,16 +40,16 @@ h4{
 }
 
 strong{
-    color: #30F1A0;
+    color: #14eb96;
 }
 
 .geany-links {
-    color: #FFF94B;
+    color: #f5f500;
     text-decoration: none;
 }
 
 .geany-links:hover {
-    color: #FFF94B;
+    color: #f5f500;
     text-decoration: underline;
 }
 

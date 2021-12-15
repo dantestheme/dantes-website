@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #121212;
+    background-color: #1d2128;
 }
 
 .github-links {
@@ -25,7 +25,7 @@ body {
 }
 
 .github-links:hover{
-    color: #00B3F5;
+    color: #00DDFF;
     text-decoration: underline;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .header  {
-    background-color: #1C1D26;  
+    background-color: #1d2128;  
     }
 
 .logo {
@@ -58,6 +58,7 @@ body {
     color: #00DDFF;
     margin:  0px auto 10px ;
 }
+
 .subtitle  {
     text-align: center;
     font-size: 30px;
@@ -67,7 +68,7 @@ body {
 
 .index {
     text-align: center ;
-    background-color: #121212;
+    background-color: #1d2128;
     color: #fafafa;
     margin: auto;
     font-size: 40px;
@@ -77,52 +78,62 @@ body {
 /* designate index */
 
 .vscode {
-    color: #42D3F2;
+    color: #00d2ff;
     text-decoration: none;
 }
 
 .vscode:hover {
-    color: #42D3F2;
+    color: #00d2ff;
     text-decoration: underline;
 }
 
 .notepad-plus-plus {
-    color: #FF4396;
+    color: #ff3ce1;
     text-decoration: none;
 }
 
 .notepad-plus-plus:hover {
-    color:#FF4396;
+    color:#ff3ce1;
     text-decoration: underline;
 }
 
 .windows-terminal {
-    color: #30F1A0;
+    color: #14eb96;
     text-decoration: none;
 }
 
 .windows-terminal:hover{
-    color: #30F1A0;
+    color: #14eb96;
     text-decoration: underline;
 }
 
 .firefox {
-    color: #FFBD41;
+    color: #ffca00;
     text-decoration: none;
 }
 
 .firefox:hover {
     text-decoration: underline;
-    color:  #FFBD41;
+    color:  #ffca00;
 }
 
 .geany{
-    color: #42D3F2;
+    color: #00d2ff;
     text-decoration: none;
 }
 
 .geany:hover{
-    color: #42D3F2;
+    color: #00d2ff;
+    text-decoration: underline;
+}
+
+.gedit{
+    color: #ff3ce1;
+    text-decoration: none;
+}
+
+.gedit:hover{
+    color:#ff3ce1;
     text-decoration: underline;
 }
 

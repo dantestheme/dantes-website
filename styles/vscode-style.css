@@ -1,5 +1,5 @@
 body{
-    background-color: #373A4B;
+    background-color: #1d2128;
 }
 h1 {
     font-family: 'Zilla Slab', serif;
@@ -9,7 +9,7 @@ h1 {
     font-weight: 900;
 }
 .preview{
-    width: 900px;
+    width: 800px;
     height: 800px;
     display: block;
     margin: 0px auto 0px;
@@ -30,5 +30,5 @@ h3 {
 }
 
 strong{
-    color: #30F1A0;
+    color: #14eb96;
 }
