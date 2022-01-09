@@ -6,6 +6,10 @@ body {
     background-color: #1d2128;
 }
 
+.head {
+    background-color: #121212;
+}
+
 .github-links {
     color: #fafafa;
     text-decoration: none;
@@ -34,11 +38,8 @@ body {
     text-decoration: underline;
 }
 
-.header  {
-    background-color: #1d2128;  
-    }
 
-.logo {
+.icon {
     display: block;
     margin: 0px auto 0px;
     width: 220px;
